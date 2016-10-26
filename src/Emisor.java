@@ -111,9 +111,9 @@ public class Emisor {
                 System.out.println("Escribiendo Datos");	
                 outToFile.write(encodedKey);//Escribir llave AES encriptada al archivo.
                 System.out.println("Escribiendo hash encriptado");
-                outToFile.write(hashEncriptado);
+                //outToFile.write(hashEncriptado);
                 System.out.println("Escribiendo Datos");	
-                outToFile.write(mensajeEncriptado);
+                //outToFile.write(mensajeEncriptado);
                 // Escribir el texto plano encriptado al archivo.
                 //outToFile.write(encriptado);
                 System.out.println("Cerrando Archivos");
